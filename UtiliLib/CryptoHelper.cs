@@ -12,7 +12,7 @@ namespace Utili
 
     public static class CryptoHelper
     {
-        public static byte[] Salt = new byte[] { 0x49, 0x76, 0x61, 0x6e, 0x20, 0x4d, 0x65, 0x64, 0x76, 0x65, 0x64, 0x65, 0x76 };
+        public static byte[] Salt = new byte[] { 0x69, 0x74, 0x20, 0x69, 0x73, 0x20, 0x34, 0x32 };
         public static string Key = "testabc";
         public static string Encrypt(string clearText)
         {
